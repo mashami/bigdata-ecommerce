@@ -1,0 +1,7 @@
+faker
+numpy
+pandas
+pymongo
+happybase
+pyspark==3.5.3
+matplotlib

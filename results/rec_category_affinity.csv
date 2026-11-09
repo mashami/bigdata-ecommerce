@@ -1,0 +1,601 @@
+category_a,category_b,co_count,confidence,lift
+"Brewer, Bryant and Hickman","Ellis, Baker and Wright",2192,0.482,1.08
+"Ellis, Baker and Wright","Brewer, Bryant and Hickman",2192,0.492,1.08
+Hancock Inc,Wright-Leblanc,2282,0.462,1.079
+King-Odonnell,Powell PLC,2012,0.441,1.079
+Wright-Leblanc,Hancock Inc,2282,0.533,1.079
+Powell PLC,King-Odonnell,2012,0.492,1.079
+Bush Inc,Powell PLC,1964,0.441,1.078
+Carney-Santos,Phillips Inc,2316,0.472,1.078
+Powell PLC,Wright-Leblanc,1888,0.462,1.078
+Bush Inc,Rodriguez-Graham,2331,0.524,1.078
+Powell PLC,Bush Inc,1964,0.48,1.078
+Phillips Inc,Carney-Santos,2316,0.529,1.078
+Wright-Leblanc,Powell PLC,1888,0.441,1.078
+Rodriguez-Graham,Bush Inc,2331,0.48,1.078
+Mitchell-Kim,Owens-Daniel,2569,0.498,1.077
+Owens-Daniel,Mitchell-Kim,2569,0.556,1.077
+"Ellis, Baker and Wright",Rodriguez-Graham,2321,0.521,1.072
+Rodriguez-Graham,"Ellis, Baker and Wright",2321,0.478,1.072
+Bush Inc,Phillips Inc,2085,0.468,1.07
+Rodriguez-Graham,Smith Ltd,2414,0.497,1.07
+Phillips Inc,Bush Inc,2085,0.476,1.07
+Smith Ltd,Rodriguez-Graham,2414,0.519,1.07
+King-Odonnell,"Moore, Becker and Carlson",2393,0.525,1.069
+Baldwin Ltd,Owens-Daniel,2312,0.494,1.069
+"Moore, Becker and Carlson",King-Odonnell,2393,0.488,1.069
+Owens-Daniel,Baldwin Ltd,2312,0.5,1.069
+"Anderson, Walls and Duncan",Baldwin Ltd,2389,0.5,1.068
+"Anderson, Walls and Duncan","Brewer, Bryant and Hickman",2326,0.486,1.068
+Preston Ltd,Wright-Leblanc,2105,0.458,1.068
+"Brewer, Bryant and Hickman",Carney-Santos,2384,0.524,1.068
+"Patterson, Smith and Jones",Rodriguez-Graham,2585,0.519,1.068
+Baldwin Ltd,"Anderson, Walls and Duncan",2389,0.511,1.068
+"Brewer, Bryant and Hickman","Anderson, Walls and Duncan",2326,0.511,1.068
+Wright-Leblanc,Preston Ltd,2105,0.492,1.068
+Carney-Santos,"Brewer, Bryant and Hickman",2384,0.486,1.068
+Rodriguez-Graham,"Patterson, Smith and Jones",2585,0.533,1.068
+Bush Inc,Spence PLC,2071,0.465,1.067
+Kelly-Santiago,Mitchell-Kim,2680,0.55,1.067
+Kelly-Santiago,Skinner-Romero,2443,0.502,1.067
+"Ellis, Baker and Wright",Spence PLC,2075,0.466,1.067
+Spence PLC,Bush Inc,2071,0.475,1.067
+Mitchell-Kim,Kelly-Santiago,2680,0.52,1.067
+Skinner-Romero,Kelly-Santiago,2443,0.52,1.067
+Spence PLC,"Ellis, Baker and Wright",2075,0.476,1.067
+Hancock Inc,Smith Ltd,2448,0.496,1.066
+Smith Ltd,Hancock Inc,2448,0.527,1.066
+Carney-Santos,Smith Ltd,2428,0.495,1.065
+Bush Inc,"Ellis, Baker and Wright",2115,0.475,1.065
+Powell PLC,Smith Ltd,2024,0.495,1.065
+Hancock Inc,Spence PLC,2294,0.464,1.065
+"Anderson, Walls and Duncan",Cameron-Parsons,2559,0.535,1.065
+James LLC,King-Odonnell,2312,0.486,1.065
+"Patterson, Smith and Jones",Wright-Leblanc,2272,0.456,1.065
+"Anderson, Walls and Duncan",Bush Inc,2269,0.474,1.065
+Kelly-Santiago,Spence PLC,2262,0.465,1.065
+James LLC,Spence PLC,2211,0.465,1.065
+Baldwin Ltd,"Brewer, Bryant and Hickman",2268,0.485,1.065
+Smith Ltd,Carney-Santos,2428,0.522,1.065
+"Ellis, Baker and Wright",Bush Inc,2115,0.475,1.065
+Smith Ltd,Powell PLC,2024,0.436,1.065
+Spence PLC,Hancock Inc,2294,0.526,1.065
+Cameron-Parsons,"Anderson, Walls and Duncan",2559,0.509,1.065
+King-Odonnell,James LLC,2312,0.507,1.065
+Wright-Leblanc,"Patterson, Smith and Jones",2272,0.531,1.065
+Bush Inc,"Anderson, Walls and Duncan",2269,0.51,1.065
+Spence PLC,Kelly-Santiago,2262,0.519,1.065
+Spence PLC,James LLC,2211,0.507,1.065
+"Brewer, Bryant and Hickman",Baldwin Ltd,2268,0.498,1.065
+Carney-Santos,Owens-Daniel,2412,0.492,1.064
+Skinner-Romero,Smith Ltd,2324,0.495,1.064
+Carney-Santos,Powell PLC,2134,0.435,1.064
+Carney-Santos,Skinner-Romero,2454,0.5,1.064
+"Brewer, Bryant and Hickman",King-Odonnell,2208,0.485,1.064
+Owens-Daniel,Carney-Santos,2412,0.522,1.064
+Smith Ltd,Skinner-Romero,2324,0.5,1.064
+Powell PLC,Carney-Santos,2134,0.522,1.064
+Skinner-Romero,Carney-Santos,2454,0.522,1.064
+King-Odonnell,"Brewer, Bryant and Hickman",2208,0.484,1.064
+Owens-Daniel,Skinner-Romero,2309,0.5,1.063
+Hancock Inc,Owens-Daniel,2427,0.491,1.063
+Phillips Inc,Rodriguez-Graham,2259,0.516,1.063
+Carney-Santos,Wright-Leblanc,2232,0.455,1.063
+Skinner-Romero,Owens-Daniel,2309,0.491,1.063
+Owens-Daniel,Hancock Inc,2427,0.525,1.063
+Rodriguez-Graham,Phillips Inc,2259,0.465,1.063
+Wright-Leblanc,Carney-Santos,2232,0.521,1.063
+Powell PLC,Skinner-Romero,2041,0.499,1.062
+"Ellis, Baker and Wright",Phillips Inc,2074,0.465,1.062
+Kelly-Santiago,Owens-Daniel,2391,0.491,1.062
+"Anderson, Walls and Duncan",Powell PLC,2077,0.434,1.062
+Bush Inc,"Rodriguez, Figueroa and Sanchez",2167,0.487,1.062
+Bush Inc,Kelly-Santiago,2304,0.518,1.062
+King-Odonnell,Spence PLC,2112,0.463,1.062
+Skinner-Romero,Powell PLC,2041,0.434,1.062
+Phillips Inc,"Ellis, Baker and Wright",2074,0.474,1.062
+Owens-Daniel,Kelly-Santiago,2391,0.517,1.062
+Powell PLC,"Anderson, Walls and Duncan",2077,0.508,1.062
+"Rodriguez, Figueroa and Sanchez",Bush Inc,2167,0.473,1.062
+Kelly-Santiago,Bush Inc,2304,0.473,1.062
+Spence PLC,King-Odonnell,2112,0.485,1.062
+"Brewer, Bryant and Hickman",Spence PLC,2106,0.463,1.061
+Preston Ltd,Skinner-Romero,2296,0.499,1.061
+"Anderson, Walls and Duncan",Wright-Leblanc,2172,0.454,1.061
+"Ellis, Baker and Wright","Moore, Becker and Carlson",2322,0.521,1.061
+Baldwin Ltd,Rodriguez-Graham,2409,0.515,1.061
+"Brewer, Bryant and Hickman",Bush Inc,2151,0.473,1.061
+Spence PLC,"Brewer, Bryant and Hickman",2106,0.483,1.061
+Skinner-Romero,Preston Ltd,2296,0.489,1.061
+Wright-Leblanc,"Anderson, Walls and Duncan",2172,0.507,1.061
+"Moore, Becker and Carlson","Ellis, Baker and Wright",2322,0.473,1.061
+Rodriguez-Graham,Baldwin Ltd,2409,0.496,1.061
+Bush Inc,"Brewer, Bryant and Hickman",2151,0.483,1.061
+Phillips Inc,Preston Ltd,2136,0.488,1.06
+"Ellis, Baker and Wright",Skinner-Romero,2222,0.499,1.06
+Burns-Rodriguez,Mitchell-Kim,2812,0.547,1.06
+Bush Inc,King-Odonnell,2152,0.483,1.06
+Preston Ltd,Phillips Inc,2136,0.464,1.06
+Skinner-Romero,"Ellis, Baker and Wright",2222,0.473,1.06
+Mitchell-Kim,Burns-Rodriguez,2812,0.545,1.06
+King-Odonnell,Bush Inc,2152,0.472,1.06
+Phillips Inc,Powell PLC,1896,0.433,1.059
+"Brewer, Bryant and Hickman",Rodriguez-Graham,2341,0.514,1.059
+Carney-Santos,"Patterson, Smith and Jones",2590,0.528,1.059
+"Ellis, Baker and Wright",King-Odonnell,2152,0.483,1.059
+"Moore, Becker and Carlson",Owens-Daniel,2403,0.49,1.059
+James LLC,Phillips Inc,2206,0.464,1.059
+"Ellis, Baker and Wright","Rodriguez, Figueroa and Sanchez",2165,0.486,1.059
+Mitchell-Kim,Spence PLC,2381,0.462,1.059
+Baldwin Ltd,Spence PLC,2160,0.462,1.059
+Powell PLC,Phillips Inc,1896,0.464,1.059
+Rodriguez-Graham,"Brewer, Bryant and Hickman",2341,0.482,1.059
+"Patterson, Smith and Jones",Carney-Santos,2590,0.52,1.059
+King-Odonnell,"Ellis, Baker and Wright",2152,0.472,1.059
+Owens-Daniel,"Moore, Becker and Carlson",2403,0.52,1.059
+Phillips Inc,James LLC,2206,0.504,1.059
+"Rodriguez, Figueroa and Sanchez","Ellis, Baker and Wright",2165,0.472,1.059
+Spence PLC,Mitchell-Kim,2381,0.546,1.059
+Spence PLC,Baldwin Ltd,2160,0.496,1.059
+Carney-Santos,Spence PLC,2264,0.462,1.058
+"Patterson, Smith and Jones",Spence PLC,2299,0.461,1.058
+Burns-Rodriguez,Spence PLC,2373,0.461,1.058
+Rodriguez-Graham,Spence PLC,2240,0.462,1.058
+Cameron-Parsons,Preston Ltd,2447,0.487,1.058
+Carney-Santos,Preston Ltd,2389,0.487,1.058
+Hancock Inc,Skinner-Romero,2456,0.497,1.058
+Owens-Daniel,Phillips Inc,2141,0.463,1.058
+King-Odonnell,"Patterson, Smith and Jones",2404,0.527,1.058
+"Rodriguez, Figueroa and Sanchez",Skinner-Romero,2279,0.497,1.058
+Rodriguez-Graham,Wright-Leblanc,2198,0.453,1.058
+Owens-Daniel,Spence PLC,2133,0.462,1.058
+Spence PLC,Carney-Santos,2264,0.519,1.058
+Spence PLC,"Patterson, Smith and Jones",2299,0.527,1.058
+Spence PLC,Burns-Rodriguez,2373,0.544,1.058
+Spence PLC,Rodriguez-Graham,2240,0.514,1.058
+Preston Ltd,Cameron-Parsons,2447,0.532,1.058
+Preston Ltd,Carney-Santos,2389,0.519,1.058
+Skinner-Romero,Hancock Inc,2456,0.523,1.058
+Phillips Inc,Owens-Daniel,2141,0.489,1.058
+"Patterson, Smith and Jones",King-Odonnell,2404,0.482,1.058
+Skinner-Romero,"Rodriguez, Figueroa and Sanchez",2279,0.485,1.058
+Wright-Leblanc,Rodriguez-Graham,2198,0.514,1.058
+Spence PLC,Owens-Daniel,2133,0.489,1.058
+Carney-Santos,King-Odonnell,2364,0.482,1.057
+Carney-Santos,James LLC,2468,0.503,1.057
+Bush Inc,"Patterson, Smith and Jones",2346,0.527,1.057
+Burns-Rodriguez,Smith Ltd,2528,0.492,1.057
+"Brewer, Bryant and Hickman",Hancock Inc,2377,0.522,1.057
+"Anderson, Walls and Duncan","Ellis, Baker and Wright",2254,0.471,1.057
+"Ellis, Baker and Wright",Smith Ltd,2191,0.492,1.057
+"Ellis, Baker and Wright",Owens-Daniel,2178,0.489,1.057
+"Anderson, Walls and Duncan",Preston Ltd,2326,0.486,1.057
+James LLC,Skinner-Romero,2364,0.497,1.057
+King-Odonnell,Carney-Santos,2364,0.519,1.057
+James LLC,Carney-Santos,2468,0.519,1.057
+"Patterson, Smith and Jones",Bush Inc,2346,0.471,1.057
+Smith Ltd,Burns-Rodriguez,2528,0.544,1.057
+Hancock Inc,"Brewer, Bryant and Hickman",2377,0.481,1.057
+"Ellis, Baker and Wright","Anderson, Walls and Duncan",2254,0.506,1.057
+Smith Ltd,"Ellis, Baker and Wright",2191,0.471,1.057
+Owens-Daniel,"Ellis, Baker and Wright",2178,0.471,1.057
+Preston Ltd,"Anderson, Walls and Duncan",2326,0.506,1.057
+Skinner-Romero,James LLC,2364,0.503,1.057
+"Brewer, Bryant and Hickman",Burns-Rodriguez,2474,0.544,1.056
+"Moore, Becker and Carlson",Phillips Inc,2270,0.463,1.056
+"Rodriguez, Figueroa and Sanchez",Wright-Leblanc,2073,0.452,1.056
+Bush Inc,Wright-Leblanc,2012,0.452,1.056
+Powell PLC,Preston Ltd,1987,0.486,1.056
+"Brewer, Bryant and Hickman","Rodriguez, Figueroa and Sanchez",2203,0.484,1.056
+King-Odonnell,Rodriguez-Graham,2337,0.513,1.056
+"Moore, Becker and Carlson",Spence PLC,2260,0.461,1.056
+"Brewer, Bryant and Hickman",Phillips Inc,2105,0.463,1.056
+Burns-Rodriguez,"Ellis, Baker and Wright",2422,0.471,1.056
+Preston Ltd,Smith Ltd,2259,0.491,1.056
+Skinner-Romero,Wright-Leblanc,2126,0.452,1.056
+Owens-Daniel,"Patterson, Smith and Jones",2432,0.526,1.056
+Burns-Rodriguez,"Brewer, Bryant and Hickman",2474,0.481,1.056
+Phillips Inc,"Moore, Becker and Carlson",2270,0.519,1.056
+Wright-Leblanc,"Rodriguez, Figueroa and Sanchez",2073,0.484,1.056
+Wright-Leblanc,Bush Inc,2012,0.47,1.056
+Preston Ltd,Powell PLC,1987,0.432,1.056
+"Rodriguez, Figueroa and Sanchez","Brewer, Bryant and Hickman",2203,0.481,1.056
+Rodriguez-Graham,King-Odonnell,2337,0.482,1.056
+Spence PLC,"Moore, Becker and Carlson",2260,0.518,1.056
+Phillips Inc,"Brewer, Bryant and Hickman",2105,0.481,1.056
+"Ellis, Baker and Wright",Burns-Rodriguez,2422,0.543,1.056
+Smith Ltd,Preston Ltd,2259,0.486,1.056
+Wright-Leblanc,Skinner-Romero,2126,0.497,1.056
+"Patterson, Smith and Jones",Owens-Daniel,2432,0.488,1.056
+Kelly-Santiago,King-Odonnell,2343,0.481,1.055
+Preston Ltd,Spence PLC,2118,0.46,1.055
+Burns-Rodriguez,"Rodriguez, Figueroa and Sanchez",2488,0.484,1.055
+King-Odonnell,Kelly-Santiago,2343,0.514,1.055
+Spence PLC,Preston Ltd,2118,0.486,1.055
+"Rodriguez, Figueroa and Sanchez",Burns-Rodriguez,2488,0.543,1.055
+Cameron-Parsons,"Patterson, Smith and Jones",2641,0.526,1.054
+"Ellis, Baker and Wright","Patterson, Smith and Jones",2343,0.526,1.054
+Skinner-Romero,Spence PLC,2160,0.46,1.054
+Carney-Santos,Rodriguez-Graham,2510,0.512,1.054
+Rodriguez-Graham,Skinner-Romero,2406,0.496,1.054
+Carney-Santos,Kelly-Santiago,2519,0.514,1.054
+Phillips Inc,Spence PLC,2012,0.46,1.054
+Owens-Daniel,Powell PLC,1992,0.431,1.054
+"Anderson, Walls and Duncan",James LLC,2400,0.502,1.054
+"Brewer, Bryant and Hickman",Smith Ltd,2231,0.49,1.054
+"Patterson, Smith and Jones",Cameron-Parsons,2641,0.53,1.054
+"Patterson, Smith and Jones","Ellis, Baker and Wright",2343,0.47,1.054
+Spence PLC,Skinner-Romero,2160,0.496,1.054
+Rodriguez-Graham,Carney-Santos,2510,0.517,1.054
+Skinner-Romero,Rodriguez-Graham,2406,0.512,1.054
+Kelly-Santiago,Carney-Santos,2519,0.517,1.054
+Spence PLC,Phillips Inc,2012,0.462,1.054
+Powell PLC,Owens-Daniel,1992,0.487,1.054
+James LLC,"Anderson, Walls and Duncan",2400,0.504,1.054
+Smith Ltd,"Brewer, Bryant and Hickman",2231,0.48,1.054
+"Ellis, Baker and Wright",Powell PLC,1921,0.431,1.053
+"Patterson, Smith and Jones",Skinner-Romero,2467,0.495,1.053
+Burns-Rodriguez,Wright-Leblanc,2319,0.451,1.053
+Hancock Inc,King-Odonnell,2373,0.48,1.053
+Cameron-Parsons,Owens-Daniel,2445,0.487,1.053
+"Ellis, Baker and Wright",James LLC,2235,0.501,1.053
+Carney-Santos,Hancock Inc,2551,0.52,1.053
+Powell PLC,"Ellis, Baker and Wright",1921,0.47,1.053
+Skinner-Romero,"Patterson, Smith and Jones",2467,0.525,1.053
+Wright-Leblanc,Burns-Rodriguez,2319,0.542,1.053
+King-Odonnell,Hancock Inc,2373,0.521,1.053
+Owens-Daniel,Cameron-Parsons,2445,0.529,1.053
+James LLC,"Ellis, Baker and Wright",2235,0.47,1.053
+Hancock Inc,Carney-Santos,2551,0.517,1.053
+"Anderson, Walls and Duncan",Hancock Inc,2485,0.52,1.052
+King-Odonnell,Owens-Daniel,2217,0.486,1.052
+"Brewer, Bryant and Hickman",Kelly-Santiago,2332,0.512,1.052
+Powell PLC,Rodriguez-Graham,2089,0.511,1.052
+Baldwin Ltd,Skinner-Romero,2313,0.495,1.052
+Hancock Inc,Preston Ltd,2392,0.484,1.052
+King-Odonnell,Phillips Inc,2100,0.461,1.052
+Cameron-Parsons,Kelly-Santiago,2575,0.513,1.052
+Kelly-Santiago,"Rodriguez, Figueroa and Sanchez",2349,0.482,1.052
+Burns-Rodriguez,Hancock Inc,2673,0.52,1.052
+"Moore, Becker and Carlson",Preston Ltd,2375,0.484,1.052
+Hancock Inc,"Anderson, Walls and Duncan",2485,0.503,1.052
+Owens-Daniel,King-Odonnell,2217,0.48,1.052
+Kelly-Santiago,"Brewer, Bryant and Hickman",2332,0.479,1.052
+Rodriguez-Graham,Powell PLC,2089,0.43,1.052
+Skinner-Romero,Baldwin Ltd,2313,0.492,1.052
+Preston Ltd,Hancock Inc,2392,0.52,1.052
+Phillips Inc,King-Odonnell,2100,0.48,1.052
+Kelly-Santiago,Cameron-Parsons,2575,0.529,1.052
+"Rodriguez, Figueroa and Sanchez",Kelly-Santiago,2349,0.513,1.052
+Hancock Inc,Burns-Rodriguez,2673,0.541,1.052
+Preston Ltd,"Moore, Becker and Carlson",2375,0.516,1.052
+"Brewer, Bryant and Hickman",Cameron-Parsons,2404,0.528,1.051
+Phillips Inc,"Rodriguez, Figueroa and Sanchez",2109,0.482,1.051
+Baldwin Ltd,"Moore, Becker and Carlson",2412,0.516,1.051
+Bush Inc,James LLC,2227,0.5,1.051
+Cameron-Parsons,"Ellis, Baker and Wright",2354,0.469,1.051
+Smith Ltd,Spence PLC,2131,0.459,1.051
+Burns-Rodriguez,Bush Inc,2408,0.468,1.051
+Phillips Inc,Skinner-Romero,2163,0.494,1.051
+"Brewer, Bryant and Hickman","Moore, Becker and Carlson",2348,0.516,1.051
+Bush Inc,Smith Ltd,2176,0.489,1.051
+Burns-Rodriguez,Rodriguez-Graham,2626,0.511,1.051
+Burns-Rodriguez,Owens-Daniel,2500,0.486,1.051
+Hancock Inc,"Moore, Becker and Carlson",2549,0.516,1.051
+Powell PLC,"Rodriguez, Figueroa and Sanchez",1970,0.482,1.051
+Cameron-Parsons,"Brewer, Bryant and Hickman",2404,0.479,1.051
+"Rodriguez, Figueroa and Sanchez",Phillips Inc,2109,0.46,1.051
+"Moore, Becker and Carlson",Baldwin Ltd,2412,0.492,1.051
+James LLC,Bush Inc,2227,0.468,1.051
+"Ellis, Baker and Wright",Cameron-Parsons,2354,0.528,1.051
+Spence PLC,Smith Ltd,2131,0.489,1.051
+Bush Inc,Burns-Rodriguez,2408,0.541,1.051
+Skinner-Romero,Phillips Inc,2163,0.46,1.051
+"Moore, Becker and Carlson","Brewer, Bryant and Hickman",2348,0.479,1.051
+Smith Ltd,Bush Inc,2176,0.468,1.051
+Rodriguez-Graham,Burns-Rodriguez,2626,0.541,1.051
+Owens-Daniel,Burns-Rodriguez,2500,0.541,1.051
+"Moore, Becker and Carlson",Hancock Inc,2549,0.52,1.051
+"Rodriguez, Figueroa and Sanchez",Powell PLC,1970,0.43,1.051
+Bush Inc,Hancock Inc,2310,0.519,1.05
+"Rodriguez, Figueroa and Sanchez",Smith Ltd,2238,0.488,1.05
+Mitchell-Kim,Skinner-Romero,2546,0.494,1.05
+James LLC,"Rodriguez, Figueroa and Sanchez",2290,0.481,1.05
+"Anderson, Walls and Duncan",Owens-Daniel,2322,0.486,1.05
+"Moore, Becker and Carlson",Skinner-Romero,2421,0.493,1.05
+"Anderson, Walls and Duncan",Smith Ltd,2335,0.488,1.05
+Baldwin Ltd,Preston Ltd,2260,0.483,1.05
+King-Odonnell,Wright-Leblanc,2049,0.45,1.05
+Bush Inc,Owens-Daniel,2160,0.485,1.05
+Burns-Rodriguez,Skinner-Romero,2538,0.493,1.05
+James LLC,"Patterson, Smith and Jones",2492,0.524,1.05
+Phillips Inc,Smith Ltd,2137,0.488,1.05
+Hancock Inc,Bush Inc,2310,0.468,1.05
+Smith Ltd,"Rodriguez, Figueroa and Sanchez",2238,0.482,1.05
+Skinner-Romero,Mitchell-Kim,2546,0.542,1.05
+"Rodriguez, Figueroa and Sanchez",James LLC,2290,0.5,1.05
+Owens-Daniel,"Anderson, Walls and Duncan",2322,0.502,1.05
+Skinner-Romero,"Moore, Becker and Carlson",2421,0.515,1.05
+Smith Ltd,"Anderson, Walls and Duncan",2335,0.502,1.05
+Preston Ltd,Baldwin Ltd,2260,0.491,1.05
+Wright-Leblanc,King-Odonnell,2049,0.479,1.05
+Owens-Daniel,Bush Inc,2160,0.467,1.05
+Skinner-Romero,Burns-Rodriguez,2538,0.54,1.05
+"Patterson, Smith and Jones",James LLC,2492,0.5,1.05
+Smith Ltd,Phillips Inc,2137,0.46,1.05
+Baldwin Ltd,Bush Inc,2186,0.467,1.049
+Owens-Daniel,Preston Ltd,2231,0.483,1.049
+"Anderson, Walls and Duncan",Rodriguez-Graham,2437,0.51,1.049
+Cameron-Parsons,Rodriguez-Graham,2560,0.51,1.049
+James LLC,Powell PLC,2043,0.429,1.049
+Baldwin Ltd,Mitchell-Kim,2531,0.541,1.049
+Baldwin Ltd,Powell PLC,2007,0.429,1.049
+"Anderson, Walls and Duncan","Rodriguez, Figueroa and Sanchez",2300,0.481,1.049
+James LLC,Preston Ltd,2298,0.483,1.049
+James LLC,Wright-Leblanc,2138,0.449,1.049
+Bush Inc,Baldwin Ltd,2186,0.491,1.049
+Preston Ltd,Owens-Daniel,2231,0.485,1.049
+Rodriguez-Graham,"Anderson, Walls and Duncan",2437,0.502,1.049
+Rodriguez-Graham,Cameron-Parsons,2560,0.528,1.049
+Powell PLC,James LLC,2043,0.5,1.049
+Mitchell-Kim,Baldwin Ltd,2531,0.491,1.049
+Powell PLC,Baldwin Ltd,2007,0.491,1.049
+"Rodriguez, Figueroa and Sanchez","Anderson, Walls and Duncan",2300,0.502,1.049
+Preston Ltd,James LLC,2298,0.499,1.049
+Wright-Leblanc,James LLC,2138,0.5,1.049
+Mitchell-Kim,Rodriguez-Graham,2625,0.509,1.048
+Burns-Rodriguez,"Moore, Becker and Carlson",2645,0.514,1.048
+"Anderson, Walls and Duncan","Patterson, Smith and Jones",2499,0.523,1.048
+"Patterson, Smith and Jones",Phillips Inc,2287,0.459,1.048
+Bush Inc,Carney-Santos,2289,0.514,1.048
+"Brewer, Bryant and Hickman",Skinner-Romero,2243,0.493,1.048
+Cameron-Parsons,Mitchell-Kim,2716,0.541,1.048
+Owens-Daniel,Rodriguez-Graham,2351,0.509,1.048
+Mitchell-Kim,Smith Ltd,2513,0.487,1.048
+Mitchell-Kim,Preston Ltd,2488,0.482,1.048
+Kelly-Santiago,Powell PLC,2087,0.429,1.048
+Baldwin Ltd,Cameron-Parsons,2465,0.527,1.048
+Rodriguez-Graham,Mitchell-Kim,2625,0.541,1.048
+"Moore, Becker and Carlson",Burns-Rodriguez,2645,0.539,1.048
+"Patterson, Smith and Jones","Anderson, Walls and Duncan",2499,0.502,1.048
+Phillips Inc,"Patterson, Smith and Jones",2287,0.523,1.048
+Carney-Santos,Bush Inc,2289,0.467,1.048
+Skinner-Romero,"Brewer, Bryant and Hickman",2243,0.477,1.048
+Mitchell-Kim,Cameron-Parsons,2716,0.527,1.048
+Rodriguez-Graham,Owens-Daniel,2351,0.484,1.048
+Smith Ltd,Mitchell-Kim,2513,0.541,1.048
+Preston Ltd,Mitchell-Kim,2488,0.541,1.048
+Powell PLC,Kelly-Santiago,2087,0.51,1.048
+Cameron-Parsons,Baldwin Ltd,2465,0.491,1.048
+James LLC,Kelly-Santiago,2426,0.51,1.047
+Phillips Inc,Wright-Leblanc,1962,0.448,1.047
+Carney-Santos,"Ellis, Baker and Wright",2290,0.467,1.047
+Hancock Inc,Rodriguez-Graham,2511,0.508,1.047
+Burns-Rodriguez,"Patterson, Smith and Jones",2684,0.522,1.047
+"Brewer, Bryant and Hickman","Patterson, Smith and Jones",2376,0.522,1.047
+Kelly-Santiago,Wright-Leblanc,2184,0.449,1.047
+Cameron-Parsons,Hancock Inc,2599,0.517,1.047
+James LLC,Owens-Daniel,2304,0.484,1.047
+Kelly-Santiago,James LLC,2426,0.498,1.047
+Wright-Leblanc,Phillips Inc,1962,0.458,1.047
+"Ellis, Baker and Wright",Carney-Santos,2290,0.514,1.047
+Rodriguez-Graham,Hancock Inc,2511,0.517,1.047
+"Patterson, Smith and Jones",Burns-Rodriguez,2684,0.539,1.047
+"Patterson, Smith and Jones","Brewer, Bryant and Hickman",2376,0.477,1.047
+Wright-Leblanc,Kelly-Santiago,2184,0.51,1.047
+Hancock Inc,Cameron-Parsons,2599,0.526,1.047
+Owens-Daniel,James LLC,2304,0.499,1.047
+"Patterson, Smith and Jones",Smith Ltd,2423,0.486,1.046
+"Ellis, Baker and Wright",Kelly-Santiago,2272,0.51,1.046
+"Anderson, Walls and Duncan",Burns-Rodriguez,2575,0.538,1.046
+"Rodriguez, Figueroa and Sanchez",Rodriguez-Graham,2327,0.508,1.046
+Mitchell-Kim,"Moore, Becker and Carlson",2648,0.513,1.046
+Baldwin Ltd,"Rodriguez, Figueroa and Sanchez",2244,0.48,1.046
+"Moore, Becker and Carlson",Powell PLC,2100,0.428,1.046
+Bush Inc,"Moore, Becker and Carlson",2286,0.514,1.046
+Smith Ltd,"Patterson, Smith and Jones",2423,0.521,1.046
+Kelly-Santiago,"Ellis, Baker and Wright",2272,0.467,1.046
+Burns-Rodriguez,"Anderson, Walls and Duncan",2575,0.501,1.046
+Rodriguez-Graham,"Rodriguez, Figueroa and Sanchez",2327,0.479,1.046
+"Moore, Becker and Carlson",Mitchell-Kim,2648,0.54,1.046
+"Rodriguez, Figueroa and Sanchez",Baldwin Ltd,2244,0.49,1.046
+Powell PLC,"Moore, Becker and Carlson",2100,0.514,1.046
+"Moore, Becker and Carlson",Bush Inc,2286,0.466,1.046
+Baldwin Ltd,Hancock Inc,2416,0.517,1.045
+"Anderson, Walls and Duncan",Skinner-Romero,2349,0.491,1.045
+Carney-Santos,"Rodriguez, Figueroa and Sanchez",2350,0.479,1.045
+Mitchell-Kim,Wright-Leblanc,2308,0.448,1.045
+"Patterson, Smith and Jones",Powell PLC,2130,0.427,1.045
+Kelly-Santiago,Rodriguez-Graham,2471,0.507,1.045
+"Anderson, Walls and Duncan",Carney-Santos,2453,0.513,1.045
+Powell PLC,Spence PLC,1863,0.456,1.045
+"Brewer, Bryant and Hickman",Owens-Daniel,2198,0.483,1.045
+"Ellis, Baker and Wright",Preston Ltd,2144,0.481,1.045
+Bush Inc,Skinner-Romero,2188,0.492,1.045
+"Patterson, Smith and Jones","Rodriguez, Figueroa and Sanchez",2389,0.479,1.045
+Hancock Inc,Baldwin Ltd,2416,0.489,1.045
+Skinner-Romero,"Anderson, Walls and Duncan",2349,0.5,1.045
+"Rodriguez, Figueroa and Sanchez",Carney-Santos,2350,0.513,1.045
+Wright-Leblanc,Mitchell-Kim,2308,0.539,1.045
+Powell PLC,"Patterson, Smith and Jones",2130,0.521,1.045
+Rodriguez-Graham,Kelly-Santiago,2471,0.509,1.045
+Carney-Santos,"Anderson, Walls and Duncan",2453,0.5,1.045
+Spence PLC,Powell PLC,1863,0.427,1.045
+Owens-Daniel,"Brewer, Bryant and Hickman",2198,0.476,1.045
+Preston Ltd,"Ellis, Baker and Wright",2144,0.466,1.045
+Skinner-Romero,Bush Inc,2188,0.466,1.045
+"Rodriguez, Figueroa and Sanchez","Patterson, Smith and Jones",2389,0.521,1.045
+Carney-Santos,Mitchell-Kim,2641,0.539,1.044
+Kelly-Santiago,"Patterson, Smith and Jones",2535,0.521,1.044
+Carney-Santos,"Moore, Becker and Carlson",2513,0.512,1.044
+"Rodriguez, Figueroa and Sanchez",Spence PLC,2087,0.455,1.044
+Spence PLC,Wright-Leblanc,1948,0.447,1.044
+Cameron-Parsons,Smith Ltd,2439,0.485,1.044
+"Moore, Becker and Carlson","Rodriguez, Figueroa and Sanchez",2349,0.479,1.044
+Mitchell-Kim,Carney-Santos,2641,0.512,1.044
+"Patterson, Smith and Jones",Kelly-Santiago,2535,0.509,1.044
+"Moore, Becker and Carlson",Carney-Santos,2513,0.512,1.044
+Spence PLC,"Rodriguez, Figueroa and Sanchez",2087,0.479,1.044
+Wright-Leblanc,Spence PLC,1948,0.455,1.044
+Smith Ltd,Cameron-Parsons,2439,0.525,1.044
+"Rodriguez, Figueroa and Sanchez","Moore, Becker and Carlson",2349,0.513,1.044
+"Anderson, Walls and Duncan",Mitchell-Kim,2573,0.538,1.043
+Cameron-Parsons,Powell PLC,2143,0.427,1.043
+Owens-Daniel,Smith Ltd,2242,0.485,1.043
+Owens-Daniel,Wright-Leblanc,2065,0.447,1.043
+Baldwin Ltd,Kelly-Santiago,2377,0.508,1.043
+Burns-Rodriguez,Carney-Santos,2631,0.512,1.043
+Baldwin Ltd,Wright-Leblanc,2089,0.447,1.043
+"Brewer, Bryant and Hickman",Preston Ltd,2186,0.48,1.043
+Mitchell-Kim,"Anderson, Walls and Duncan",2573,0.499,1.043
+Powell PLC,Cameron-Parsons,2143,0.524,1.043
+Smith Ltd,Owens-Daniel,2242,0.482,1.043
+Wright-Leblanc,Owens-Daniel,2065,0.482,1.043
+Kelly-Santiago,Baldwin Ltd,2377,0.488,1.043
+Carney-Santos,Burns-Rodriguez,2631,0.537,1.043
+Wright-Leblanc,Baldwin Ltd,2089,0.488,1.043
+Preston Ltd,"Brewer, Bryant and Hickman",2186,0.475,1.043
+King-Odonnell,Preston Ltd,2187,0.48,1.042
+Baldwin Ltd,"Patterson, Smith and Jones",2430,0.52,1.042
+Cameron-Parsons,Carney-Santos,2569,0.511,1.042
+Kelly-Santiago,Preston Ltd,2335,0.48,1.042
+Burns-Rodriguez,Phillips Inc,2347,0.456,1.042
+King-Odonnell,"Rodriguez, Figueroa and Sanchez",2179,0.478,1.042
+Kelly-Santiago,Phillips Inc,2223,0.457,1.042
+King-Odonnell,Skinner-Romero,2233,0.49,1.042
+"Anderson, Walls and Duncan",Spence PLC,2174,0.455,1.042
+"Patterson, Smith and Jones",Preston Ltd,2390,0.48,1.042
+Preston Ltd,King-Odonnell,2187,0.475,1.042
+"Patterson, Smith and Jones",Baldwin Ltd,2430,0.488,1.042
+Carney-Santos,Cameron-Parsons,2569,0.524,1.042
+Preston Ltd,Kelly-Santiago,2335,0.507,1.042
+Phillips Inc,Burns-Rodriguez,2347,0.536,1.042
+"Rodriguez, Figueroa and Sanchez",King-Odonnell,2179,0.475,1.042
+Phillips Inc,Kelly-Santiago,2223,0.508,1.042
+Skinner-Romero,King-Odonnell,2233,0.475,1.042
+Spence PLC,"Anderson, Walls and Duncan",2174,0.499,1.042
+Preston Ltd,"Patterson, Smith and Jones",2390,0.519,1.042
+King-Odonnell,Smith Ltd,2206,0.484,1.041
+Baldwin Ltd,Carney-Santos,2388,0.511,1.041
+Cameron-Parsons,"Rodriguez, Figueroa and Sanchez",2398,0.477,1.041
+Baldwin Ltd,Phillips Inc,2133,0.456,1.041
+"Anderson, Walls and Duncan",Phillips Inc,2181,0.456,1.041
+Cameron-Parsons,"Moore, Becker and Carlson",2568,0.511,1.041
+Hancock Inc,Powell PLC,2103,0.426,1.041
+Smith Ltd,King-Odonnell,2206,0.475,1.041
+Carney-Santos,Baldwin Ltd,2388,0.487,1.041
+"Rodriguez, Figueroa and Sanchez",Cameron-Parsons,2398,0.523,1.041
+Phillips Inc,Baldwin Ltd,2133,0.487,1.041
+Phillips Inc,"Anderson, Walls and Duncan",2181,0.498,1.041
+"Moore, Becker and Carlson",Cameron-Parsons,2568,0.523,1.041
+Powell PLC,Hancock Inc,2103,0.514,1.041
+Hancock Inc,"Patterson, Smith and Jones",2561,0.519,1.04
+Burns-Rodriguez,Powell PLC,2188,0.425,1.04
+"Brewer, Bryant and Hickman",Wright-Leblanc,2027,0.445,1.04
+Cameron-Parsons,Skinner-Romero,2457,0.489,1.04
+King-Odonnell,Mitchell-Kim,2446,0.537,1.04
+"Patterson, Smith and Jones",Hancock Inc,2561,0.514,1.04
+Powell PLC,Burns-Rodriguez,2188,0.535,1.04
+Wright-Leblanc,"Brewer, Bryant and Hickman",2027,0.474,1.04
+Skinner-Romero,Cameron-Parsons,2457,0.523,1.04
+Mitchell-Kim,King-Odonnell,2446,0.474,1.04
+Baldwin Ltd,Burns-Rodriguez,2501,0.535,1.039
+Baldwin Ltd,King-Odonnell,2217,0.474,1.039
+Bush Inc,Cameron-Parsons,2325,0.522,1.039
+Bush Inc,Mitchell-Kim,2386,0.536,1.039
+Burns-Rodriguez,Baldwin Ltd,2501,0.486,1.039
+King-Odonnell,Baldwin Ltd,2217,0.486,1.039
+Cameron-Parsons,Bush Inc,2325,0.463,1.039
+Mitchell-Kim,Bush Inc,2386,0.463,1.039
+James LLC,Rodriguez-Graham,2399,0.504,1.038
+Burns-Rodriguez,James LLC,2542,0.494,1.038
+Burns-Rodriguez,King-Odonnell,2434,0.473,1.038
+Burns-Rodriguez,Kelly-Santiago,2602,0.506,1.038
+Cameron-Parsons,Phillips Inc,2285,0.455,1.038
+Rodriguez-Graham,James LLC,2399,0.494,1.038
+James LLC,Burns-Rodriguez,2542,0.534,1.038
+King-Odonnell,Burns-Rodriguez,2434,0.534,1.038
+Kelly-Santiago,Burns-Rodriguez,2602,0.534,1.038
+Phillips Inc,Cameron-Parsons,2285,0.522,1.038
+Baldwin Ltd,"Ellis, Baker and Wright",2163,0.462,1.037
+Cameron-Parsons,King-Odonnell,2375,0.473,1.037
+"Moore, Becker and Carlson","Patterson, Smith and Jones",2537,0.517,1.037
+Hancock Inc,"Rodriguez, Figueroa and Sanchez",2349,0.476,1.037
+Mitchell-Kim,Phillips Inc,2342,0.454,1.037
+"Ellis, Baker and Wright",Wright-Leblanc,1979,0.444,1.037
+"Ellis, Baker and Wright",Baldwin Ltd,2163,0.485,1.037
+King-Odonnell,Cameron-Parsons,2375,0.521,1.037
+"Patterson, Smith and Jones","Moore, Becker and Carlson",2537,0.509,1.037
+"Rodriguez, Figueroa and Sanchez",Hancock Inc,2349,0.513,1.037
+Phillips Inc,Mitchell-Kim,2342,0.535,1.037
+Wright-Leblanc,"Ellis, Baker and Wright",1979,0.462,1.037
+Baldwin Ltd,Smith Ltd,2252,0.482,1.036
+"Ellis, Baker and Wright",Mitchell-Kim,2382,0.534,1.036
+Hancock Inc,Kelly-Santiago,2494,0.505,1.036
+Cameron-Parsons,James LLC,2478,0.493,1.036
+Burns-Rodriguez,Preston Ltd,2452,0.477,1.036
+"Moore, Becker and Carlson",Wright-Leblanc,2177,0.444,1.036
+Smith Ltd,Baldwin Ltd,2252,0.485,1.036
+Mitchell-Kim,"Ellis, Baker and Wright",2382,0.462,1.036
+Kelly-Santiago,Hancock Inc,2494,0.512,1.036
+James LLC,Cameron-Parsons,2478,0.521,1.036
+Preston Ltd,Burns-Rodriguez,2452,0.533,1.036
+Wright-Leblanc,"Moore, Becker and Carlson",2177,0.509,1.036
+Mitchell-Kim,"Patterson, Smith and Jones",2661,0.516,1.035
+Preston Ltd,Rodriguez-Graham,2313,0.503,1.035
+Mitchell-Kim,Powell PLC,2184,0.424,1.035
+Baldwin Ltd,James LLC,2305,0.493,1.035
+"Moore, Becker and Carlson",Smith Ltd,2362,0.481,1.035
+"Brewer, Bryant and Hickman",Powell PLC,1928,0.424,1.035
+"Patterson, Smith and Jones",Mitchell-Kim,2661,0.534,1.035
+Rodriguez-Graham,Preston Ltd,2313,0.477,1.035
+Powell PLC,Mitchell-Kim,2184,0.534,1.035
+James LLC,Baldwin Ltd,2305,0.484,1.035
+Smith Ltd,"Moore, Becker and Carlson",2362,0.508,1.035
+Powell PLC,"Brewer, Bryant and Hickman",1928,0.472,1.035
+Cameron-Parsons,Spence PLC,2265,0.451,1.034
+Burns-Rodriguez,Cameron-Parsons,2673,0.52,1.034
+Spence PLC,Cameron-Parsons,2265,0.52,1.034
+Cameron-Parsons,Burns-Rodriguez,2673,0.532,1.034
+Hancock Inc,James LLC,2430,0.492,1.033
+Kelly-Santiago,"Moore, Becker and Carlson",2470,0.507,1.033
+Owens-Daniel,"Rodriguez, Figueroa and Sanchez",2190,0.474,1.033
+Mitchell-Kim,"Rodriguez, Figueroa and Sanchez",2443,0.474,1.033
+James LLC,Hancock Inc,2430,0.511,1.033
+"Moore, Becker and Carlson",Kelly-Santiago,2470,0.503,1.033
+"Rodriguez, Figueroa and Sanchez",Owens-Daniel,2190,0.478,1.033
+"Rodriguez, Figueroa and Sanchez",Mitchell-Kim,2443,0.533,1.033
+"Ellis, Baker and Wright",Hancock Inc,2274,0.51,1.032
+Cameron-Parsons,Wright-Leblanc,2221,0.442,1.032
+Smith Ltd,Wright-Leblanc,2054,0.442,1.032
+"Brewer, Bryant and Hickman",James LLC,2235,0.491,1.032
+Hancock Inc,"Ellis, Baker and Wright",2274,0.46,1.032
+Wright-Leblanc,Cameron-Parsons,2221,0.519,1.032
+Wright-Leblanc,Smith Ltd,2054,0.48,1.032
+James LLC,"Brewer, Bryant and Hickman",2235,0.47,1.032
+"Brewer, Bryant and Hickman",Mitchell-Kim,2422,0.532,1.031
+Kelly-Santiago,Smith Ltd,2334,0.479,1.031
+"Moore, Becker and Carlson",Rodriguez-Graham,2456,0.501,1.031
+Mitchell-Kim,"Brewer, Bryant and Hickman",2422,0.47,1.031
+Smith Ltd,Kelly-Santiago,2334,0.502,1.031
+Rodriguez-Graham,"Moore, Becker and Carlson",2456,0.506,1.031
+Hancock Inc,Mitchell-Kim,2623,0.531,1.029
+James LLC,Smith Ltd,2276,0.478,1.029
+"Anderson, Walls and Duncan",King-Odonnell,2244,0.469,1.029
+Hancock Inc,Phillips Inc,2225,0.45,1.029
+Mitchell-Kim,Hancock Inc,2623,0.509,1.029
+Smith Ltd,James LLC,2276,0.49,1.029
+King-Odonnell,"Anderson, Walls and Duncan",2244,0.492,1.029
+Phillips Inc,Hancock Inc,2225,0.508,1.029
+James LLC,Mitchell-Kim,2525,0.531,1.028
+Preston Ltd,"Rodriguez, Figueroa and Sanchez",2170,0.472,1.028
+Mitchell-Kim,James LLC,2525,0.49,1.028
+"Rodriguez, Figueroa and Sanchez",Preston Ltd,2170,0.473,1.028
+"Anderson, Walls and Duncan",Kelly-Santiago,2391,0.5,1.026
+Kelly-Santiago,"Anderson, Walls and Duncan",2391,0.491,1.026
+Bush Inc,Preston Ltd,2101,0.472,1.025
+Preston Ltd,Bush Inc,2101,0.457,1.025
+"Anderson, Walls and Duncan","Moore, Becker and Carlson",2396,0.501,1.021
+"Moore, Becker and Carlson","Anderson, Walls and Duncan",2396,0.488,1.021
+James LLC,"Moore, Becker and Carlson",2377,0.5,1.018
+"Moore, Becker and Carlson",James LLC,2377,0.485,1.018

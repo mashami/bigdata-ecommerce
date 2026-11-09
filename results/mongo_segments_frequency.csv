@@ -1,0 +1,6 @@
+users,segment,total_revenue,avg_spent,avg_order_value
+6,0 orders (never bought),0,0.0,0.0
+211,1-2 orders (occasional),381467.11,1807.9,988.63
+2214,3-5 orders (regular),10117073.3,4569.59,1057.22
+6173,6-10 orders (frequent),51096626.23,8277.44,1062.9
+1396,11+ orders (loyal),18036479.11,12920.11,1058.77

@@ -1,0 +1,5 @@
+engagement_quartile,users,avg_sessions,avg_minutes,avg_orders,avg_spent,corr_minutes_spent
+1,2500,24.1,672,6.75,7359.0,0.065
+2,2500,28.3,839,7.22,7720.45,0.027
+3,2500,31.5,963,7.72,8140.79,0.035
+4,2500,36.2,1158,8.31,8632.42,0.103

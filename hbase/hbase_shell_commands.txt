@@ -1,0 +1,42 @@
+# HBase shell commands - schema creation and sample queries
+# Open the shell with:   docker exec -it hbase hbase shell
+# (load_hbase.py creates these same tables from Python; these are the equivalent shell commands)
+
+# ---------------------------------------------------------------- schema
+# Session activity: 3 column families (metadata / page views / cart), 1 version, row bloom filter
+create 'user_sessions', {NAME => 's', VERSIONS => 1, BLOOMFILTER => 'ROW'}, {NAME => 'pv', VERSIONS => 1, BLOOMFILTER => 'ROW'}, {NAME => 'cart', VERSIONS => 1, BLOOMFILTER => 'ROW'}
+
+# Product performance per day
+create 'product_metrics', {NAME => 'm', VERSIONS => 1, BLOOMFILTER => 'ROW'}
+
+# Production variant (not needed on a single-node Docker HBase): pre-split by user id range
+# so writes spread across region servers from day one instead of hot-spotting one region:
+# create 'user_sessions', 's', 'pv', 'cart', SPLITS => ['user_002500', 'user_005000', 'user_007500']
+
+list
+describe 'user_sessions'
+count 'user_sessions', INTERVAL => 50000
+
+# ---------------------------------------------------------------- sample queries
+# 1. The 5 most recent sessions of one user, metadata family only
+#    (row key = user_id#reverse_timestamp#session_id, so newest rows come first)
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042#', COLUMNS => ['s'], LIMIT => 5}
+
+# 2. Only some columns: status, start time and device of a user's sessions
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042#', COLUMNS => ['s:start_time', 's:status', 's:device']}
+
+# 3. Server-side filter: only that user's converted sessions
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042#', COLUMNS => ['s:start_time', 's:status', 's:cart_value'], FILTER => "SingleColumnValueFilter('s', 'status', =, 'binary:converted', true, true)"}
+
+# 4. One full session (all families: metadata + every page view + cart)
+#    Replace the row key with one printed by query 1
+get 'user_sessions', 'user_000042#8206857563000#sess_01802e1738'
+
+# 5. Product metrics for one product over a date range (start row inclusive, stop row exclusive)
+scan 'product_metrics', {STARTROW => 'prod_02076#20260901', STOPROW => 'prod_02076#20261001'}
+
+# 6. One product on one day
+get 'product_metrics', 'prod_02076#20260913'
+
+# 7. Number of sessions for one user (counts rows matching the prefix, reading only one cell each)
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042#', COLUMNS => ['s:status'], FILTER => "KeyOnlyFilter()"}

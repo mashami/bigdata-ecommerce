@@ -1,0 +1,22 @@
+table,check,rows_affected,action
+categories,subcategories (flattened),109,written
+users,duplicate or null user_id,0,removed
+users,unparseable/missing registration_date,0,reported
+products,duplicate or null product_id,0,removed
+products,missing subcategory/category link,0,"kept, category_name='unknown'"
+products,non-positive price,0,removed
+transactions,duplicate or null transaction_id,0,removed
+transactions,unparseable/missing timestamp,0,reported
+transactions,no session_id (missing value),37230,"kept, channel='offline'"
+transactions,unknown user_id,0,removed
+transaction_items,invalid quantity/price/line subtotal,0,order removed
+transaction_items,unknown product_id,0,order removed
+transactions,empty order or amounts that don't add up,0,removed
+sessions,duplicate or null session_id,0,removed
+sessions,unparseable/missing start_time,0,reported
+sessions,unparseable/missing end_time,0,reported
+sessions,end_time before start_time,0,reported
+sessions,unknown user_id,0,removed
+page_views,missing product_id on product_detail page,0,reported
+sessions,'converted' but no matching transaction,23071,relabelled 'converted_no_order'
+users,last_active earlier than real last activity,9856,recomputed from sessions + orders
