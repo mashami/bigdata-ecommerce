@@ -1,15 +1,3 @@
-"""
-aggregations.py  -  Part 1: analytical aggregation pipelines on MongoDB.
-
-  1. revenue_by_category_month : net revenue and estimated profit per category per month
-  2. top_selling_products      : best sellers by units, joined to the catalog with $lookup
-  3. customer_segments         : purchase-frequency and spend segmentation with $facet
-
-Each result is printed and saved as CSV in results/ (used later for the charts).
-
-Usage:  python mongodb/aggregations.py
-Env:    MONGO_URI (default mongodb://localhost:27018)
-"""
 import csv
 import os
 
@@ -37,13 +25,7 @@ def show(title, rows, limit=10):
         print("  ", r)
 
 
-# ------------------------------------------------------------------------------
-# 1. Revenue analytics: net revenue & estimated profit by category and month
-#    Business question: which categories drive revenue and profit, and how does it move over time?
-#    Techniques: $unwind on the embedded items array, discount allocated to items
-#    pro rata, $dateToString for monthly buckets, no join needed thanks to the
-#    category fields copied into each line item at load time.
-# ------------------------------------------------------------------------------
+
 revenue_pipeline = [
     {"$match": {"status": {"$in": ["completed", "shipped", "delivered"]}}},   # exclude still-processing orders
     {"$addFields": {  # share of the order total actually paid after discount

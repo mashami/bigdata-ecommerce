@@ -1,28 +1,4 @@
-"""
-spark_clean.py  -  Part 2 (batch): clean and normalise the raw JSON dataset with Spark.
 
-Input : data/*.json  (raw generator output: JSON arrays)
-Output: data/clean/<table>/  as Parquet (columnar, compressed, typed - far faster to re-read than JSON)
-          users, categories, products, transactions, transaction_items, sessions (partitioned by date),
-          page_views
-        results/data_quality_report.csv
-
-Cleaning steps
-  1. Explicit schemas (spark/common.py) so every field has a fixed type.
-  2. Parse ISO-8601 strings into real timestamps; count anything that fails to parse.
-  3. Standardise categorical text (trim + lower case; country codes upper case).
-  4. Remove duplicate primary keys.
-  5. Handle missing values: transactions without a session -> channel 'offline';
-     page views without product/category are expected for home/search/cart pages (kept as null).
-  6. Validate amounts: quantity > 0, line subtotal = qty x unit price, order subtotal = sum of lines,
-     total = subtotal - discount. Invalid rows are dropped and counted.
-  7. Referential integrity: drop transactions/sessions for unknown users, items for unknown products.
-  8. Fix generator inconsistencies found during exploration:
-       - sessions marked 'converted' with no matching transaction -> 'converted_no_order'
-       - users.last_active earlier than their real last activity -> recomputed from sessions + orders
-
-Usage:  python spark/spark_clean.py
-"""
 import os
 import time
 

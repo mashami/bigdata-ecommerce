@@ -1,21 +1,4 @@
-"""
-spark_sql.py  -  Part 2: Spark SQL analytics.
 
-The clean Parquet tables are registered as SQL views named after the system where that data
-lives in our architecture, so the queries read like a federated query across both databases:
-
-    mongo_users, mongo_products, mongo_transactions, mongo_items   (MongoDB data)
-    hbase_sessions, hbase_page_views                               (HBase data)
-
-  Q1  Conversion funnel by device and referrer          CTE + conditional aggregation
-  Q2  Daily revenue + 7-day moving average              window function (ROWS BETWEEN)
-  Q3  Category revenue by month, ranked, with growth    RANK() and LAG() window functions
-  Q4  Most viewed vs best selling products              HBase views JOIN MongoDB sales
-  Q5  Does browsing engagement go with spending?        MongoDB users JOIN HBase sessions, NTILE()
-
-Each result is printed and saved to results/sql_*.csv (used for the charts).
-Usage:  python spark/spark_sql.py
-"""
 import os
 import time
 

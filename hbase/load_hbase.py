@@ -1,36 +1,4 @@
-"""
-load_hbase.py  -  Part 1: create the HBase tables and load session data + product metrics.
 
-TABLE 1: user_sessions   (time-series browsing activity, one row per session)
-  Row key : <user_id>#<reverse_timestamp>#<session_id>
-            e.g. user_000042#8237465912345#sess_1a2b3c4d5e
-            - user_id first   -> all of a user's sessions are stored next to each other,
-                                 so "get this user's activity" is ONE short range scan.
-            - reverse ts      -> 10^13 - start_time_in_ms, zero-padded to 13 digits.
-                                 HBase sorts keys ascending, so the NEWEST session comes first:
-                                 "last 10 sessions" = scan the prefix with limit=10.
-            - session_id last -> guarantees uniqueness if two sessions start in the same ms.
-  Column families (kept to 3, as HBase recommends few families; each is stored in its own files):
-    s     session metadata (small, read on almost every query)
-          start_time, end_time, duration, status, referrer, device, os, browser,
-          country, city, ip, page_count, product_views, cart_items, cart_value
-    pv    page views - one column per page: qualifier = position "00","01",...
-          value = "timestamp|page_type|product_id|category_id|view_duration"
-          (sparse: a session has 4-16 columns here, the rest simply don't exist)
-    cart  cart contents - qualifier = product_id, value = "quantity|unit_price"
-          (sparse: empty for ~1/3 of sessions, which costs nothing in HBase)
-
-TABLE 2: product_metrics (product performance per day)
-  Row key : <product_id>#<YYYYMMDD>    e.g. prod_02076#20260915
-            -> one product's history is contiguous and in date order, so
-               "metrics for product X between two dates" is a single range scan.
-  Column family m: views, cart_adds, cart_units, web_orders, orders, units_sold, revenue
-
-Usage:
-    python hbase/load_hbase.py                         # all sessions
-    python hbase/load_hbase.py --max-sessions 5000     # quick test
-Env:   HBASE_HOST (default localhost), HBASE_PORT (default 9090 = Thrift server)
-"""
 import argparse
 import calendar
 import glob

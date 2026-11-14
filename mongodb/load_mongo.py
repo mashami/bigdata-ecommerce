@@ -1,22 +1,4 @@
-"""
-load_mongo.py  -  Part 1: load the e-commerce dataset into MongoDB.
 
-Collections created (database `ecommerce`):
-  categories    - the category -> subcategory hierarchy (small lookup collection)
-  products      - catalog; each product embeds its category & subcategory info
-  transactions  - one document per purchase; line items embedded as an array,
-                  each item carries a copy of its category (extended-reference pattern)
-  users         - profile + an embedded `purchase_summary` computed from transactions
-                  (computed pattern), built server-side with an aggregation + $merge
-
-Sessions are NOT stored here: they go to HBase (time-series, very high volume).
-
-Usage:
-    python mongodb/load_mongo.py                       # all transactions
-    python mongodb/load_mongo.py --max-transactions 20000
-Env:
-    MONGO_URI (default mongodb://localhost:27018)
-"""
 import argparse
 import json
 import os

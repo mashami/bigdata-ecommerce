@@ -1,22 +1,4 @@
-"""
-spark_recommendations.py  -  Part 2 (batch): product recommendation indicators.
 
-  A. "Users who bought X also bought Y"   - user-level co-purchase (market-basket association rules)
-  B. "Products frequently viewed together" - session-level co-view
-  C. Top-5 recommendations per product     - A and B combined, ranked with a window function
-  D. Category affinity                     - the same rules one level up (25 categories)
-  E. Random-shuffle baseline               - is the co-occurrence real signal or chance?
-
-Association-rule metrics for a rule X -> Y (N = number of baskets):
-  support    = baskets with X and Y / N
-  confidence = baskets with X and Y / baskets with X          (P(Y | X))
-  lift       = confidence / (baskets with Y / N)              (>1: bought together more than chance)
-
-Input : data/clean/  (run spark_clean.py first)
-Output: data/clean/recommendations/ (Parquet), results/rec_*.csv
-
-Usage:  python spark/spark_recommendations.py [--product prod_02076]
-"""
 import argparse
 import os
 import time

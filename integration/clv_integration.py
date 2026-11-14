@@ -1,31 +1,4 @@
-"""
-clv_integration.py  -  Part 3: integrated analytics - Customer Lifetime Value (CLV).
 
-Business question
-  Which customers are worth the most over the next 12 months, how does their browsing behaviour
-  differ, and which high-engagement / low-value customers should marketing target?
-
-Workflow (each system does what it is best at)
-  1. MongoDB  -> user profiles + the computed purchase_summary, and per-user profit computed by an
-                 aggregation pipeline that runs INSIDE MongoDB (only 10k summary rows travel).
-  2. HBase    -> per-session engagement (family 's' only: duration, pages, status, cart value),
-                 read with a full-table scan through Thrift (narrow: 6 columns of 1 family).
-  3. Spark    -> joins the two sources, aggregates sessions per user, computes RFM features,
-                 the CLV estimate and the segments.
-  4. MongoDB  <- the CLV score and tier are written back into each user document, so the
-                 application can show them with a normal profile read (closing the loop).
-
-CLV model (simple, explainable - assumptions stated in the report)
-  observed window      = 90 days of data
-  monthly_profit       = estimated gross profit in the window / 3   (profit = net revenue x margin)
-  retention_prob       = 0.9 if last order <= 14 days ago, 0.7 if <= 30, 0.4 if <= 60, else 0.15
-  CLV_12m              = monthly_profit x 12 x retention_prob
-  tier                 = CLV quartile (Platinum / Gold / Silver / Bronze)
-
-Usage:
-  python integration/clv_integration.py                    # live MongoDB + HBase
-  python integration/clv_integration.py --sessions-from parquet   # if HBase is down: same data from Parquet
-"""
 import argparse
 import os
 import sys

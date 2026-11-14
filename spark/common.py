@@ -1,4 +1,4 @@
-"""Shared Spark setup: session builder and explicit schemas for the raw JSON files."""
+
 import os
 
 from pyspark.sql import SparkSession

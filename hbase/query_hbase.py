@@ -1,15 +1,4 @@
-"""
-query_hbase.py  -  Part 1: sample HBase queries (all are key-based range scans or gets).
 
-  Q1  A user's 10 most recent sessions         -> prefix scan + limit (reverse timestamp = newest first)
-  Q2  A user's sessions in a time window       -> start/stop row computed from the time range
-  Q3  A user's converted sessions only         -> prefix scan + server-side SingleColumnValueFilter
-  Q4  Full clickstream of one session          -> single-row get, all column families
-  Q5  A product's daily metrics for one month  -> range scan product_id#start .. product_id#end
-  Q6  View-to-purchase conversion by week      -> range scan, rolled up client-side
-
-Usage:  python hbase/query_hbase.py [--user user_000042] [--product prod_02076]
-"""
 import argparse
 import calendar
 import csv
